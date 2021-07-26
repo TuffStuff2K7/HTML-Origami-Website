@@ -1,0 +1,33 @@
+h1{
+    color: #141414;
+    background-color: rgb(192, 192, 192);
+}
+
+img{
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    color: #141414;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+}
+
+body{
+    background-color: #F0F8FF;
+}
