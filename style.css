@@ -26,8 +26,25 @@ ul{
     display: flex;
     flex-wrap: wrap;
     width: 10%;
+    position: relative;
 }
 
 body{
     background-color: #F0F8FF;
+}
+
+.name p{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.name:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.5;
 }
